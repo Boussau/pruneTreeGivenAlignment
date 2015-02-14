@@ -1,0 +1,8 @@
+#For debugging purpose:
+#g++  -pipe -o pruneTreeGivenAlignment pruneTreeGivenAlignment.cpp -I/usr/local/include  -L. -L/usr/local/lib  -g -Wall -fopenmp -std=c++0x -lbpp-core -lbpp-seq -lbpp-phyl
+
+# For static compilation:
+g++ -s -o pruneTreeGivenAlignment pruneTreeGivenAlignment.cpp -std=c++0x -I/usr/local/include  -L. -L/usr/local/lib  -lbpp-phyl -lbpp-seq -lbpp-core --static 
+
+
+
